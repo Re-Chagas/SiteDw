@@ -189,6 +189,12 @@ p {
   }
 }
 
+@media screen  and (max-width: 1000px){
+    nav ul .Logo{
+      display: none;
+    }
+}
+
 table {
   border-collapse: collapse;
   width: 100%;

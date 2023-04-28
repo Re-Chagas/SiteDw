@@ -182,9 +182,44 @@
     padding: 1rem;
   }
   
-  
   @media screen and (max-width: 1000px){
     .container{
       flex-direction: column  ;
     }
   }
+  
+  @media screen  and (max-width: 1000px){
+      nav ul .Logo{
+        display: none;
+      }
+  }
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  td {
+    text-align: left;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e6f2ff;
+  }
+  
