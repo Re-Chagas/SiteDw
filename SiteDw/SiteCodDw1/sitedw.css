@@ -1,0 +1,120 @@
+/* Site Pág 1 */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  background-image: url("FotosPag1/controleowo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  background-image: linear-gradient(135deg, #ff0000 0%, #993399, #0400ff 100%);
+  display: flex;
+  padding-right: 2rem;
+  box-shadow: 0 0 1rem black;
+  z-index: 1001;
+  padding: 1rem;  
+}
+
+nav ul li {
+  display: inline;
+  position: relative;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav li:hover {
+  display: inline-block;
+  transition: all 1s;
+  box-shadow: 0 0 4px white;
+}
+
+  nav li a:hover {
+  background-image: linear-gradient(135deg, #ff0000 0%, #0400ff 100%);
+  padding: 10px;
+  transition: all 0.7s; 
+}
+
+.dropdown-menu {
+  position: absolute;
+  box-shadow: 0 0 2px #ffffff;
+  display: none;
+  background-image: linear-gradient(135deg, #ff0000 0%, #0400ff 100%);
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: block;
+  color: rgb(255, 255, 255);
+  
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  
+}
+
+nav ul a img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  float: left;
+}
+
+h4 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.LadoEsquerdo,
+.Middle,
+.LadoDireito {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+  align-items: center;
+  color: black;
+  flex: 1;
+  padding: 1rem;
+}
+
+.LadoEsquerdo,
+.LadoDireito{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1000px){
+  .container{
+    flex-direction: column  ;
+  }
+}
