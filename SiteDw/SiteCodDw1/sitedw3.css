@@ -5,7 +5,8 @@
     padding: 0;
     margin: 0;
   }
-  
+
+
   .Body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
@@ -222,4 +223,17 @@
   tr:hover {
     background-color: #e6f2ff;
   }
-  
+
+  .banner{
+    width: 1200px;
+    height: 100px;
+  }
+
+  .img{
+    text-align: center;
+  }
+
+  .bannerf{
+    width: 1200px;
+    height: 200px;
+  }
